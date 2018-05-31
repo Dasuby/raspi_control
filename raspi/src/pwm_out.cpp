@@ -54,7 +54,6 @@ int main(int argc, char **argv)
         r.sleep();
         ros::spinOnce();
     }
-    pthread_join(pth1,NULL);
     return 0;
 }
 
