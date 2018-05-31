@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="raspi" type="pwm_out_node" name="pwm_out_node" output="screen" />
+</launch>
